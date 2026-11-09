@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -it --name asm2vec -v /root/binary_test/asm2vec/code:/shared:z -v /root/binary_test/libdroids:/libs/original:z  -v /root/binary_test/asm2vec/libdroids/selected:/libs/selected:z -v /root/binary_test/asm2vec/libdroids/acfg_disasm:/libs/acfg_disasm:z -v /root/binary_test/asm2vec/libdroids/checkpoint:/libs/checkpoint:z -v /root/binary_test/asm2vec/libdroids/asm2vec_inference:/libs/asm2vec_inference:z  -v /root/binary_test/asm2vec/libdroids/i2v_preprocessing:/libs/i2v_preprocessing:z asm2vec

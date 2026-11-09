@@ -1,0 +1,15 @@
+venv/
+libs/
+ground_truth_libs*
+__pycache__/
+latest.csv
+latest_mini.csv
+broken_apks.txt
+the_base_of_datas.sqlite
+old*.sqlite
+*.tar
+iad*
+*.pkl
+scraped_aar_list.txt
+qdrant_storage
+droids.tar
